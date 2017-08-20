@@ -33,7 +33,7 @@ class InstallCommand extends Command
     {
         $composer = $this->findComposer();
 
-        $process = new Process($composer . ' require certly/spark', null, null, null, null);
+        $process = new Process($composer . ' require nkkollaw/spark', null, null, null, null);
 
         $process->run(function ($type, $line) use ($output) {
             $output->write($line);
