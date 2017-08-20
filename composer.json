@@ -1,5 +1,5 @@
 {
-    "name": "certly/spark-installer",
+    "name": "nkkollaw/spark-installer",
     "description": "Quick installer for Laravel Spark.",
     "keywords": ["laravel", "spark"],
     "license": "MIT",
